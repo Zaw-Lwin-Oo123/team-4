@@ -1,0 +1,285 @@
+body {
+ background-image:linear-gradient(to bottom,rgba(197, 198, 202, 0.52),rgba(162, 159, 162, 0.73)),url(reg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: 'Poppins', sans-serif;
+ width:auto;
+ height: auto;
+}
+
+@media (max-width: 576px) {
+  .reps {
+   padding-left: 15px;
+   padding-right:  15px;
+
+ }
+
+}
+
+
+
+div  {
+ background-color:white;
+ border-radius: 7px;
+ height: auto;
+ margin:auto;
+ width:520px;
+}
+
+
+
+h1  { 
+  padding-top:  30px;
+  letter-spacing: 0.8px;
+  
+}
+
+
+
+label{ 
+ font-size: 10px;
+ color: grey;
+ margin-left:30px;
+ letter-spacing: 0.4px;
+ font-weight: bold;
+
+}
+
+
+
+input[type=text]{ 
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  border-color: darkgrey;
+  width: 460px;
+  background-color: white;
+  height: 40px;
+  margin-left:12px;
+  letter-spacing: 0.8px;
+  padding-left:6.5px;
+
+}
+
+
+fieldset        { 
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  border-color: darkgrey;
+  width: 436px;
+  background-color: white;
+  border-bottom: 1px solid darkgrey;
+  /*height: 40px;*/
+  margin-left:24px; 
+}
+
+input[type=date]{ 
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  border-color: darkgrey;
+  width: 460px;
+  background-color: white;
+  height: 40px;
+  margin-left: 24px;
+  letter-spacing: 0.8px;
+  padding-left:5.5px;
+
+}
+
+input[type=file]{ 
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  border-color: darkgrey;
+  width: 460px;
+  background-color: white;
+  height: 40px;
+  margin:16px 0px 0px 24px;
+  letter-spacing: 0.8px;
+  padding-left:6.5px;
+
+}
+
+/*radio*/
+
+input[type=radio]{
+ margin:2.5px 5px 0px -10px;
+ 
+ 
+}
+
+
+input[type='radio']:after {
+  width: 13px;
+  height: 10px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  padding-top: 3px;
+
+}
+
+input[type='radio']:checked:after {
+  width: 13px;
+  height: 10px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: #808080;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  padding-top: 3px;
+}
+
+select  {
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  border-color: darkgrey;
+  width: 459px;
+  background-color: white;
+  height: 40px;
+  margin-left: 26px;
+  /*padding-top: -5px;*/
+  -webkit-appearance:none;
+  letter-spacing: 0.8px;
+  padding-left:6.5px;
+  
+}
+
+
+
+textarea {  
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  margin-left:30px;
+  width: 456px;
+  height:70px;
+  letter-spacing: 0.8px;
+  margin-left:13px;
+  margin-top: 7px;
+  border-color:darkgrey;
+  padding-left:4.5px;
+
+}
+
+.btn  { 
+  border:none;
+  color:white;
+  
+  text-align:center;
+  text-decoration: none;
+  font-size: 15px;
+  margin:30px 24px;
+  cursor:pointer;
+  outline: none;
+  letter-spacing: 0.02em;
+}
+
+#rgb {
+  height: 30px;
+  width: 461px;
+  border-radius: 35px;
+  background-color: #fff;
+  background-image: linear-gradient(to right,#e600e6,#8500ff,#00FFFF);
+
+}
+
+
+
+
+input , textarea , select {
+  border-bottom: 1px solid darkgrey;
+  outline:none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/*select drop icon*/
+
+label.wrap {
+  width:471px;
+  overflow: hidden; 
+  height: 50px;    
+  position: relative;
+  display: block;
+  margin-left:12px;
+}
+
+select.dropdown{       
+  height: 44px;
+  font-size: 15px;       
+  width: 459px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-top: hidden; 
+  border-left: hidden;
+  border-right: hidden;
+  border-color: darkgrey;
+  outline:none;
+  margin-left: 12px;
+
+}
+
+label.wrap:after {
+  content:" \f0dc ";
+  font-family: FontAwesome;
+  color: darkgrey;
+  position: absolute; 
+  right: 0; 
+  top: 18px;
+  z-index: 1;
+  width: 2%;
+  height: 100%;  
+  pointer-events: none;    
+}
+
+
+input:focus{
+  border-bottom: 1.5px solid black;
+  transition: all 2s;
+  
+}
+
+textarea:focus{
+ border-bottom: 1.5px solid black;
+ transition:all 2s;
+ 
+}
+
+/*! icon*/
+
+label.ico {
+  width:471px;
+  overflow: hidden; 
+  /*height: 50px;    */
+  position: relative;
+  display: block;
+  margin-left:12px;
+}
+
+label.ico:after {
+  content:" \f06a ";
+  font-family: FontAwesome;
+  color: red;
+  position: absolute; 
+  right: 0; 
+  top: 18px;
+  /*z-index: 1;*/
+  width: 2%;
+  pointer-events: none;    
+}
+
