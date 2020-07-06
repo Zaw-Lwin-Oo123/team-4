@@ -66,7 +66,7 @@ li a {
 
 /*nav*/
 .nav { 
-	background-image: linear-gradient(to bottom, rgba(190, 190, 200, 0), rgba(160, 150, 160, 0.4)),url(reglist.jpg);
+	background-image: linear-gradient(to bottom, rgba(190, 190, 200, 0), rgba(160, 150, 160, 0.4)),url(../img/reglist.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -225,6 +225,7 @@ th,td { height: 40px; }
 	display: table;
 	clear: both;
 }
+
 
 p {  margin: 0; letter-spacing: 0.06em;display: block; font-family: 'Roboto', sans-serif;}
 h5 { letter-spacing: 0.06em; }
